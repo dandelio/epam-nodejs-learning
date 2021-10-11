@@ -1,0 +1,33 @@
+{
+  "name": "epam-nodejs-learning",
+  "version": "1.0.0",
+  "description": "NodeJS Global mentoring program",
+  "main": "index.js",
+  "scripts": {
+    "task1": "nodemon ./src/task1.js",
+    "task2": "nodemon ./src/task2.js",
+    "task3": "nodemon --exec node_modules/.bin/babel-node  ./src/task3.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dandelio/epam-nodejs-learning.git"
+  },
+  "author": "Pavel Ryabichenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dandelio/epam-nodejs-learning/issues"
+  },
+  "homepage": "https://github.com/dandelio/epam-nodejs-learning#readme",
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "event-stream": "^4.0.1",
+    "nodemon": "^2.0.13"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.5",
+    "@babel/node": "^7.15.4",
+    "@babel/preset-env": "^7.15.6",
+    "prettier": "^2.4.1"
+  }
+}
