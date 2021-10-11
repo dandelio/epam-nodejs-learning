@@ -16,4 +16,3 @@ fs.createReadStream(csvPath)
 		});
 	})
 	.on('error', (msg) => console.log(msg));
-process.exit(1);
